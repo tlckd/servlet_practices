@@ -16,8 +16,8 @@
 		생년: 
 		<select name="birthYear">
 			<option value="1996">1996년</option>
-			<option>1997년</option>
-			<option>1998년</option>
+			<option value="1997">1997년</option>
+			<option value="1998">1998년</option>
 		</select>
 		<br/><br/>
 		성별:

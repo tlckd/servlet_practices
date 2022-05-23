@@ -41,7 +41,7 @@
 		문장입니다.
 	</p>
 	<br/>
-	<a href="/helloweb/hello">hello로 가기</a>
+	<a href="/helloweb/hello?name=최시창">hello로 가기</a>
 	<br/>
 	<a href="form.jsp">폼으로 가기</a>	
 </body>
