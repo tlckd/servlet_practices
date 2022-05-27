@@ -8,6 +8,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 
 public class CookieServlet extends HttpServlet {
@@ -39,6 +40,7 @@ public class CookieServlet extends HttpServlet {
 		PrintWriter pw = response.getWriter();
 		pw.println("<h1>방문 회수:"+visitCount+ "<h1>");
 		
+
 	}
 
 
